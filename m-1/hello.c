@@ -49,11 +49,38 @@ int main()
     // printf("%0.2f \n" , div3 );
     // printf("%d" , mod );
 
-    // Relational Operators
+    // Relational Operators  > , < , <= , >= , == , != ,
+    // Logical Operators && , || 
 
+    // Conditional Statement
 
+    int conA = 200;
+    int conB = 400;
+    if ( conA == conB)
+    {
+        printf("hello world");
+    }else{
+        printf("nothing to do");
+    }
 
+    printf("\n");
 
+    int tk;
+    scanf("%d" , &tk);
+    if (tk >= 100)
+    {
+       printf("khabo ami kacchi khabo");
+    }else if ( tk >= 50)
+    {
+        printf("ami barbag khabo");
+    }else if (tk >= 20)
+    {
+      printf("ok ice cream khabo");
+    } else{
+        printf("khabo na ami ");
+    }
+    
+    
     return 0;
 }
 
