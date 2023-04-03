@@ -57,10 +57,10 @@ int main()
     return 0;
 }
 
-//    \t -> new tab -> 4 space
-//    \n -> new line
-//    \\ -> 2 ber use korle 1 ber hobe -> spiceal case
-//    %% -> 2 ber use korle 1 ber hobe -> spiceal case
+//   \t -> new tab -> 4 space
+//   \n -> new line
+//   \\ -> 2 ber use korle 1 ber hobe -> spiceal case
+//   %% -> 2 ber use korle 1 ber hobe -> spiceal case
 
 // variable
 
