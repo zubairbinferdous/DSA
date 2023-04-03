@@ -1,9 +1,10 @@
 
-// kivabe print kora jai
 
 #include <stdio.h>
 int main()
 {
+    // // kivabe print kora jai
+    
     // printf("hello world \ni am  a developer \nnew line hobe");
     // printf("hello world \t\t new line hobe");
     // printf("\n\n");
@@ -12,7 +13,7 @@ int main()
     // char habib = 's';
     // printf("%d %0.1f %c" , zubair , karim , habib);
 
-    // // inpute 30% and 40% 
+    // // // inpute 30% and 40%
 
     // int numOne , numTwo ;
     // char p ;
@@ -20,7 +21,7 @@ int main()
     // scanf("%d%% %d%%" , &numOne, &numTwo );
     // printf("%d%% %d%%" , numOne , numTwo);
 
-    // // long integer limition 
+    // // // long integer limition
 
     // int a = 1234567890;
     // long long int b = 12345678912345678;
@@ -28,9 +29,8 @@ int main()
     // double d = 3.123456789123456;
     // printf("%d , %lld , %0.15f ,%0.15lf" , a , b , c , d);
 
+    // // Arithmetic Operators  + - / %
 
-    // Arithmetic Operators  + - / % 
-    
     // int a = 3 , b = 20;
     // int one = 5;
     // int five = 3;
@@ -49,38 +49,59 @@ int main()
     // printf("%0.2f \n" , div3 );
     // printf("%d" , mod );
 
-    // Relational Operators  > , < , <= , >= , == , != ,
-    // Logical Operators && , || 
+    // // Relational Operators  > , < , <= , >= , == , != ,
+    // // Logical Operators && , ||
+    // // C te 0 mane false, 1 mane true.
 
-    // Conditional Statement
+    // // Conditional Statement
 
-    int conA = 200;
-    int conB = 400;
-    if ( conA == conB)
+    // int conA = 200;
+    // int conB = 400;
+    // if ( conA == conB)
+    // {
+    //     printf("hello world");
+    // }else{
+    //     printf("nothing to do");
+    // }
+
+    // printf("\n");
+
+    // int tk;
+    // scanf("%d" , &tk);
+    // if (tk >= 100)
+    // {
+    //    printf("khabo ami kacchi khabo");
+    // }else if ( tk >= 50)
+    // {
+    //     printf("ami barbag khabo");
+    // }else if (tk >= 20)
+    // {
+    //   printf("ok ice cream khabo");
+    // } else{
+    //     printf("khabo na ami ");
+    // }
+
+    // // Nested If Else
+
+    int cox;
+    scanf("%d", &cox);
+    if (cox >= 5000)
     {
-        printf("hello world");
-    }else{
-        printf("nothing to do");
+        printf("go to cox bazer\n");
+        if (cox > 10000)
+        {
+            printf("ami jabo senmartin \n");
+        }
+        else
+        {
+            printf("dhaka cole jabo \n");
+        }
+    }
+    else
+    {
+        printf("kothao jabo na ami");
     }
 
-    printf("\n");
-
-    int tk;
-    scanf("%d" , &tk);
-    if (tk >= 100)
-    {
-       printf("khabo ami kacchi khabo");
-    }else if ( tk >= 50)
-    {
-        printf("ami barbag khabo");
-    }else if (tk >= 20)
-    {
-      printf("ok ice cream khabo");
-    } else{
-        printf("khabo na ami ");
-    }
-    
-    
     return 0;
 }
 
@@ -91,13 +112,13 @@ int main()
 
 // variable
 
-// int = -100 , 100 , 30 ;
-// float = .4 , 5.5;
-// char = 'a' , 'A' , '@' ;
+// int = -100 , 100 , 30 ;  -> 4 byte
+// float = .4 , 5.5;        -> 4 byte
+// char = 'a' , 'A' , '@' ; -> 1 byte
 // bool =  true or false ;
 
-// to print 
-// int -> %d 
+// to print
+// int -> %d
 // float -> %f
 // char -> %c
 
